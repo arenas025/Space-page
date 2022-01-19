@@ -1,0 +1,157 @@
+:root{
+    --blue:#0B0D17;
+    --blue-soft: #D0D6F9;
+    --white: #FFFFFF;
+    --font-text: 'Barlow Condensed', sans-serif;
+    --font-heading: 'Bellefair', serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#000203;
+}
+
+.Home-header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home-header--star{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-header--star img{
+    margin-top: 5px;
+    width: 50px;
+    height: 48px;
+}
+
+.Home-header--menu{
+    margin-right: 10px;
+}
+
+.Home-header--menu img{
+    width: 24px;
+    height: 21px;
+}
+
+.Home-main{
+    height: 515px;
+    display: flex;
+    text-align: center;
+}
+
+.Home-main--principal__text{
+    height: 50%;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.Home-main--principal__text h3{
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--blue-soft);
+    font-size:16px;
+    font-weight: 100;
+
+}
+
+.Home-main--principal__text h2{
+    font-family: var(--font-heading);
+    color: var(--white);
+    font-weight: 400;
+    font-size: 80px;
+    margin: 30px 0 30px 0;
+}
+
+.Home-main--principal__text p span{
+    font-family: var(--font-text);
+    font-weight: 400;
+    color: var(--white);
+}
+
+main{
+    position: absolute;
+}
+
+.Home-main--principal__image{
+    height: 42.5%;
+    background-image: url("./Icons&miscelaneous/Bitmapfondo\ espacio\ main.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    background-size: cover;
+}
+
+.Home-main--principal__image__circle{
+    width: 150px;
+    background-color: var(--white);
+    height: 150px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+
+.Home-main--principal__image__circle:hover{
+    transform: scale(1.2);
+}
+
+.modal--content__close{
+    display: flex;
+    height: 10%;
+    justify-content: right;
+}
+
+.modal--content__close img{
+    width: 20px;
+    height: 20px;
+    padding: 25px;
+}
+
+.modal{
+    position: absolute;
+    right: 0;
+    text-align: left;
+}
+
+.hiden{
+    display: none;
+}
+
+.visible{
+    display:flex;
+}
+
+.modal--content{
+    height: 100vh;
+    width: 70vw;
+    background-image: url("./Icons&miscelaneous/Rectangle.png");
+    color: white;
+    font-family: var(--font-text);
+}
+
+.modal--content__text div p span:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.modal--content__text div{
+    margin: 0 0 30px 30px;
+    
+}
