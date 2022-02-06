@@ -1,0 +1,460 @@
+:root{
+    --blue:#0B0D17;
+    --blue-soft: #D0D6F9;
+    --white: #FFFFFF;
+    --font-text: 'Barlow Condensed', sans-serif;
+    --font-heading: 'Bellefair', serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#000203;
+}
+
+.Home-header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home-header--star{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-header--star img{
+    margin-top: 5px;
+    width: 50px;
+    height: 48px;
+}
+
+.Home-header--menu{
+    margin-right: 10px;
+}
+
+.Home-header--menu img{
+    width: 24px;
+    height: 21px;
+}
+
+.Home-main{
+    height: 515px;
+    display: flex;
+    text-align: center;
+}
+
+main{
+    position: absolute;
+}
+
+
+.modal--content__close{
+    display: flex;
+    height: 10%;
+    justify-content: right;
+}
+
+.modal--content__close img{
+    width: 20px;
+    height: 20px;
+    padding: 25px;
+}
+
+.modal{
+    position: absolute;
+    right: 0;
+    text-align: left;
+}
+
+.hiden{
+    display: none;
+}
+
+.visible{
+    display:flex;
+}
+
+.modal--content{
+    height: 100vh;
+    width: 70vw;
+    background-image: url("./Icons&miscelaneous/Rectangle.png");
+    color: white;
+    font-family: var(--font-text);
+    background-size: cover;
+}
+
+.modal--content__text div p span:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.modal--content__text div:hover{
+    cursor: pointer;
+}
+
+.modal--content__text div{
+    margin: 0 0 30px 30px;
+}
+
+main{
+    position: absolute;
+    background-image: url("./Icons&miscelaneous/Bitmapcrew\ wallpaper.jpg");
+    background-size: cover;
+}
+
+.Crew-main--menu{
+    font-family: var(--font-text);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+
+.Crew-main--menu p span:nth-child(2){
+    margin-left: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+.Crew-main--menu__douglas{
+    width: 320px;
+    height: 230px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Crew-main--menu__douglas img{
+    width: 300px;
+    height: 220px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+ul div{
+    margin-left:10px
+}
+
+#douglas_menu{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: gray;
+    text-align: center;
+}
+
+#douglas-list #douglas_menu{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+#douglas_menu a{
+    color: transparent;
+    list-style: none;
+    text-decoration: none;
+}
+
+#mark_menu{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: gray;
+    text-align: center;
+    
+}
+#mark_menu a{
+    color: transparent;
+    list-style: none;
+    text-decoration: none;
+}
+
+#victor_menu{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: gray;
+    text-align: center;
+}
+
+#victor_menu a{
+    color: transparent;
+    list-style: none;
+    text-decoration: none;
+}
+
+#anousheh_menu{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: gray;
+    text-align: center;
+}
+
+#anousheh_menu a{
+    color: transparent;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*DOUGLAS*/
+#douglas{
+    height: 80vh;
+    background-image: url("./Icons&miscelaneous/Bitmapcrew\ wallpaper.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.Crew-main--text__douglas p{
+    color: white;
+    font-family: var(--font-text);
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Crew-main--text__douglas h2{
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 ;
+}
+
+.Crew-main--text__douglas h1{
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    margin: 30px 0 10px 0 ;
+}
+
+
+
+
+/*MARK*/
+#mark{
+    height: 80vh;
+    background-image: url("./Icons&miscelaneous/Bitmapcrew\ wallpaper.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.Crew-main--text__mark p{
+    color: white;
+    font-family: var(--font-text);
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Crew-main--text__mark h2{
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 ;
+}
+
+.Crew-main--text__mark h1{
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    margin: 30px 0 10px 0 ;
+}
+
+
+
+.Crew-main--menu__mark{
+    width: 320px;
+    height: 230px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Crew-main--menu__mark img{
+    width: 300px;
+    height: 220px;
+}
+
+#mark-list #mark_menu{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+/*VICTOR*/
+#victor{
+    height: 80vh;
+    background-image: url("./Icons&miscelaneous/Bitmapcrew\ wallpaper.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.Crew-main--text__victor p{
+    color: white;
+    font-family: var(--font-text);
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Crew-main--text__victor h2{
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 ;
+}
+
+.Crew-main--text__victor h1{
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    margin: 30px 0 10px 0 ;
+}
+
+
+
+.Crew-main--menu__victor{
+    width: 320px;
+    height: 230px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Crew-main--menu__victor img{
+    width: 300px;
+    height: 220px;
+}
+
+#victor-list #victor_menu{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+/*ANOUSHEH*/
+#anousheh{
+    height: 80vh;
+    background-image: url("./Icons&miscelaneous/Bitmapcrew\ wallpaper.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.Crew-main--text__anousheh p{
+    color: white;
+    font-family: var(--font-text);
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Crew-main--text__anousheh h2{
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 ;
+}
+
+.Crew-main--text__anousheh h1{
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    margin: 30px 0 10px 0 ;
+}
+
+
+
+.Crew-main--menu__anousheh{
+    width: 320px;
+    height: 230px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Crew-main--menu__anousheh img{
+    width: 300px;
+    height: 220px;
+}
+
+#anousheh-list #anousheh_menu{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+
+/*SLIDER*/
+
+#Crew-cards > section{
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.5s;
+    height: 82vh;
+}
+
+#Crew-cards > section:first-child{
+    opacity: 1;
+}
+
+
+#Crew-cards section:target{
+    opacity:1;
+}
+

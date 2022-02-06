@@ -87,7 +87,7 @@ main{
 }
 
 .Home-main--principal__image{
-    height: 42.5%;
+    height: 42vh;
     background-image: url("./Icons&miscelaneous/Bitmapfondo\ espacio\ main.png");
     display: flex;
     justify-content: center;
@@ -144,6 +144,7 @@ main{
     background-image: url("./Icons&miscelaneous/Rectangle.png");
     color: white;
     font-family: var(--font-text);
+    background-size: cover;
 }
 
 .modal--content__text div p span:nth-child(1){
@@ -151,6 +152,9 @@ main{
     font-size: 16px;
 }
 
+.modal--content__text div:hover{
+    cursor: pointer;
+}
 .modal--content__text div{
     margin: 0 0 30px 30px;
     

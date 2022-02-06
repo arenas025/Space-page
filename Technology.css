@@ -1,0 +1,395 @@
+:root{
+    --blue:#0B0D17;
+    --blue-soft: #D0D6F9;
+    --white: #FFFFFF;
+    --font-text: 'Barlow Condensed', sans-serif;
+    --font-heading: 'Bellefair', serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#000203;
+}
+
+.Home-header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home-header--star{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-header--star img{
+    margin-top: 5px;
+    width: 50px;
+    height: 48px;
+}
+
+.Home-header--menu{
+    margin-right: 10px;
+}
+
+.Home-header--menu img{
+    width: 24px;
+    height: 21px;
+}
+
+.Home-main{
+    height: 515px;
+    display: flex;
+    text-align: center;
+}
+
+main{
+    position: absolute;
+}
+
+
+.modal--content__close{
+    display: flex;
+    height: 10%;
+    justify-content: right;
+}
+
+.modal--content__close img{
+    width: 20px;
+    height: 20px;
+    padding: 25px;
+}
+
+.modal{
+    position: absolute;
+    right: 0;
+    text-align: left;
+}
+
+.hiden{
+    display: none;
+}
+
+.visible{
+    display:flex;
+}
+
+.modal--content{
+    height: 100vh;
+    width: 70vw;
+    background-image: url("./Icons&miscelaneous/Rectangle.png");
+    color: white;
+    font-family: var(--font-text);
+    background-size: cover;
+}
+
+.modal--content__text div p span:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.modal--content__text div:hover{
+    cursor: pointer;
+}
+
+.modal--content__text div{
+    margin: 0 0 30px 30px;
+    
+}
+
+main{
+    position: absolute;
+    background-image: url("./Icons&miscelaneous/Bitmapwallpaper\ technology.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.Technology-main--menu{
+    font-family: var(--font-text);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+
+.Technology-main--menu p span:nth-child(2){
+    margin-left: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+
+/*LAUNCH-VEHICLE*/
+
+#launch-vehicle{
+    width: 100vw;
+    background-image: url("./Icons&miscelaneous/Bitmapwallpaper\ technology.jpg");
+}
+#launch-vehicle__img{
+    display: flex;
+    justify-content: center;
+}
+
+#launch-vehicle__img img{
+    width:100vw;
+}
+
+#launch-vehicle__list{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#launch-vehicle__list li div{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 1px solid var(--blue-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+#launch-vehicle__list li div a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-heading);
+}
+
+#launch-vehicle__list li{
+    list-style: none;
+}
+
+#launch-vehicle__text{
+    text-align: center;
+}
+
+#launch-vehicle__text h1{
+    font-family: var(--font-text);
+    color: var(--blue-soft);
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#launch-vehicle__text h2{
+    font-family: var(--font-heading);
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#launch-vehicle__text p{
+    font-family: var(--font-text);
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 25px;
+}
+/*lista*/
+#launch-vehicle__list li:first-child div{
+    background-color: white;
+}
+
+#launch-vehicle__list li:first-child div a{
+    color: black;
+}
+
+/*SPACEPORT*/
+
+#spaceport{
+    width: 100vw;
+    background-image: url("./Icons&miscelaneous/Bitmapwallpaper\ technology.jpg");
+}
+#spaceport__img{
+    display: flex;
+    justify-content: center;
+}
+
+#spaceport__img img{
+    width:100vw;
+}
+
+#spaceport__list{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#spaceport__list li div{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 1px solid var(--blue-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+#spaceport__list li div a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-heading);
+}
+
+#spaceport__list li{
+    list-style: none;
+}
+
+#spaceport__text{
+    text-align: center;
+}
+
+#spaceport__text h1{
+    font-family: var(--font-text);
+    color: var(--blue-soft);
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#spaceport__text h2{
+    font-family: var(--font-heading);
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#spaceport__text p{
+    font-family: var(--font-text);
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 25px;
+}
+
+#spaceport__list li:nth-child(2) div{
+    background-color: white;
+}
+
+#spaceport__list li:nth-child(2) div a{
+    color: black;
+}
+
+/*SPACE-CAPSULE*/
+
+#space-capsule{
+    width: 100vw;
+    background-image: url("./Icons&miscelaneous/Bitmapwallpaper\ technology.jpg");
+}
+#space-capsule__img{
+    display: flex;
+    justify-content: center;
+}
+
+#space-capsule__img img{
+    width:100vw;
+}
+
+#space-capsule__list{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#space-capsule__list li div{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 1px solid var(--blue-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+#space-capsule__list li div a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-heading);
+}
+
+#space-capsule__list li{
+    list-style: none;
+}
+
+#space-capsule__text{
+    text-align: center;
+}
+
+#space-capsule__text h1{
+    font-family: var(--font-text);
+    color: var(--blue-soft);
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#space-capsule__text h2{
+    font-family: var(--font-heading);
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#space-capsule__text p{
+    font-family: var(--font-text);
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 25px;
+}
+
+#space-capsule__list li:last-child div{
+    background-color: white;
+}
+
+#space-capsule__list li:last-child div a{
+    color: black;
+}
+
+
+/*SLIDER*/
+
+#Technology-cards > section{
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.5s;
+    height: 82vh;
+}
+
+#Technology-cards > section:first-child{
+    opacity: 1;
+}
+
+
+#Technology-cards section:target{
+    opacity:1;
+}
+
+
