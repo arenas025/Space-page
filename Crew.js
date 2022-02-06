@@ -19,7 +19,7 @@ const change_crew= document.getElementById("crew")
 const change_technology= document.getElementById("technology")
 
 change_home.addEventListener("click",()=>{
-    window.location.assign("/Index.html")
+    window.location.assign("/index.html")
 })
 
 change_destination.addEventListener("click",()=>{
